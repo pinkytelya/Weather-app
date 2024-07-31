@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Dorsa&family=Quicksand:wght@300..700&display=swap');
+
+.title {
+    font-family: "Quicksand", sans-serif;
+    color: #1e334f;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 20px auto 20px auto;
+}
+
+.daily-item {
+    font-family: "Quicksand", sans-serif;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    height: 40px;
+    margin: 5px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+.icon-small {
+    width: 40px;
+}
+
+.daily-item .day {
+    cursor: inherit;
+    color: #1e334f;
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.description {
+    cursor: inherit;
+    flex: 1 1;
+    margin-right: 15px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.min-max {
+    color: #757575;
+}
+
+.daily-details-grid {
+    font-family: "Quicksand", sans-serif;
+    color: #1e334f;
+    grid-row-gap: 0;
+    grid-column-gap: 15px;
+    -webkit-column-gap: 15px;
+    column-gap: 15px;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+    row-gap: 0;
+}
+
+.daily-details-grid-item {
+    align-items: center;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.daily-details-grid-item label:first-child {
+    color: #1e334f;
+}
+
+.daily-details-grid-item label:last-child {
+    color: #212121;
+}
+
+.day {
+    margin-right: .title {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+    .daily-item {
+        background-color: #f5f5f5;
+        border-radius: 15px;
+        height: 40px;
+        margin: 5px;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+    .icon-small {
+        width: 40px;
+    }
+
+    .daily-item .day {
+        cursor: inherit;
+        color: #212121;
+        flex: 1 1;
+        font-weight: 600;
+        margin-left: 15px;
+    }
+
+    .description {
+        cursor: inherit;
+        flex: 1 1;
+        margin-right: 15px;
+        text-align: right;
+    }
+
+    .min-max {
+        color: #8e8e8e;
+    }
+
+    .daily-details-grid {
+        grid-row-gap: 0;
+        grid-column-gap: 15px;
+        -webkit-column-gap: 15px;
+        column-gap: 15px;
+        display: grid;
+        flex: 1 1;
+        grid-template-columns: auto auto;
+        padding: 5px 15px;
+        row-gap: 0;
+    }
+
+    .daily-details-grid-item {
+        align-items: center;
+        display: flex;
+        height: 30px;
+        justify-content: space-between;
+    }
+
+    .daily-details-grid-item label:first-child {
+        color: #757575;
+    }
+
+    .daily-details-grid-item label:last-child {
+        color: #212121;
+    };
+}
+
+.day {
+    margin-right: 20px;
+}
