@@ -75,7 +75,9 @@
 }
 
 .day {
-    margin-right: .title {
+    margin-right: 20px;
+
+    .title {
     font-size: 23px;
     font-weight: 700;
 }
